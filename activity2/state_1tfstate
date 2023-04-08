@@ -1,0 +1,38 @@
+{
+  "version": 4,
+  "terraform_version": "1.4.2",
+  "serial": 12,
+  "lineage": "00463b3e-5243-7d97-eb87-a48703f3bf4f",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "local_file",
+      "name": "local1",
+      "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "content": "Hello Terraform!",
+            "content_base64": null,
+            "content_base64sha256": "v8QLUNM6u1k78n+wiKLCZtrIbYBHjZe7qgLoH7rpG1s=",
+            "content_base64sha512": "dfD2QCkQ+kAAjpwsO8l2vilOEzGPPaLvz3BO/egtmBH+WU5aixLgXWJsV6/x0KsXwxvNBSmVnByf0aQCAX9Eaw==",
+            "content_md5": "880b1e0ff26b92ef422c6cb676af2566",
+            "content_sha1": "371aae854f336b541fd8bc75b6e6c8d6ba56d10a",
+            "content_sha256": "bfc40b50d33abb593bf27fb088a2c266dac86d80478d97bbaa02e81fbae91b5b",
+            "content_sha512": "75f0f6402910fa40008e9c2c3bc976be294e13318f3da2efcf704efde82d9811fe594e5a8b12e05d626c57aff1d0ab17c31bcd0529959c1c9fd1a402017f446b",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "./local.txt",
+            "id": "371aae854f336b541fd8bc75b6e6c8d6ba56d10a",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

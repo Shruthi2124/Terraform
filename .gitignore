@@ -1,0 +1,8 @@
+**/.terraform/
+*.terraform/
+*.tfstate.backup
+*.tfstate
+*.terraform.lock.hcl
+*.exe
+*.txt
+*.png
